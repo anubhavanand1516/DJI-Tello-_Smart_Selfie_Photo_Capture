@@ -103,4 +103,4 @@ while not stop:
 tello.land()
 tello.streamoff()
 cv2.destroyAllWindows()
-sys.
+sys.exit()
