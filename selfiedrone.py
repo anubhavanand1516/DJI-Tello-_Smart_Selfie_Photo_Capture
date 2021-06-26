@@ -100,7 +100,7 @@ while not stop:
 
     time.sleep(1/FPS)
 
-tello.
+tello.land()
 tello.streamoff()
 cv2.destroyAllWindows()
 sys.exit()
