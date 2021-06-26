@@ -16,7 +16,7 @@ tello = Tello()
 S = 60
 FPS = 30
 
-distanceThreshold = 
+distanceThreshold = 250
 
 
 speed = 10
