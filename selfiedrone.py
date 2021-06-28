@@ -68,10 +68,10 @@ while not stop:
         tello.rotate_clockwise(20)
         time.sleep(0.1)
 
-    x_pos = 
-    y_pos = 
-    width = 
-    height = 
+    x_pos = None
+    y_pos = None
+    width = None
+    height = None
 
     for (x,y,w,h) in faces:
         cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
