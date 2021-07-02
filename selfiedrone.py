@@ -47,8 +47,8 @@ if not tello.streamon():
 
 print ("Current battery is " + tello.get_battery())
 
-tello.
-time.
+tello.takeoff()
+time.sleep(10)
 
 tello.move_up(82)
 time.sleep(2)
